@@ -1,0 +1,15 @@
+/* general*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --header-bg-color: #ff6900;
+    --footer-bg-color: #1a1a1a;
+    --color-white: #FFFFFF;
+    --color-red: #ff0000;
+    --color-green: #008000;
+}
