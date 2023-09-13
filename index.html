@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
     <title>Boolando</title>
 </head>
@@ -11,13 +12,25 @@
     <!-- fixed header - fullscreen background-->
     <header>
         <!-- nav width 1200px -->
-        <nav>
+        <nav class="debug flex nav-f-content">
             <!-- donna/uomo/bambini -->
-            <div></div>
+            <div>
+                <ul class="flex f-row debug">
+                    <li><a href="">Donna</a></li>
+                    <li><a href="">Uomo</a></li>
+                    <li><a href="">Bambini</a></li>
+                </ul>
+            </div>
             <!-- logo -->
-            <div></div>
+            <div class="debug flex j-center">
+                <img id="logo" src="img/boolean-logo.png" alt="boolean-logo">
+            </div>
             <!-- icons -->
-            <div></div>
+            <div class="debug flex">
+                <i class="fa-regular fa-user fa-sm"></i>
+                <i class="fa-regular fa-heart fa-sm"></i>
+                <i class="fa-solid fa-bag-shopping fa-sm"></i>
+            </div>
         </nav> 
     </header>
 

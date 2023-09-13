@@ -13,3 +13,61 @@
     --color-red: #ff0000;
     --color-green: #008000;
 }
+
+.debug{
+    border: 2px solid black;
+}
+
+header{
+    background-color: var(--header-bg-color);
+}
+
+footer{
+    background-color: var(--footer-bg-color);
+}
+
+/* header */
+
+nav{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.flex{
+    display: flex;
+}
+
+.f-row{
+    flex-direction: row;
+}
+
+.flex *{
+    text-decoration: none;
+    padding: 5px;
+    color: var(--color-white);
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+
+#logo{
+    width: 20%;
+}
+
+.j-center{
+    justify-content: center;
+}
+
+.fa-sm{
+    color: var(--color-white);
+}
+
+.nav-f-content{
+    justify-content: space-between;
+    align-items: center;
+}
+
