@@ -213,7 +213,7 @@ ul{
     text-align: left;
 }
 
-/* second image hover */
+/* hover */
 
 .card-layout:hover img.second-img{
     display: block;
@@ -225,4 +225,8 @@ ul{
 
 .second-img{
     display: none;
+}
+
+.heart:hover{
+    color: var(--color-red);
 }
