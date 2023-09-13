@@ -105,11 +105,15 @@ ul{
 }
 
 .card-layout{
-    width: calc(100% / 3);
+    max-width: calc(100% / 3);
 }
 
 .p-relative{
     position: relative;
+}
+
+.img-container{
+    width: 100%;
 }
 
 .img-setting{
@@ -192,7 +196,7 @@ ul{
 }
 
 .right-side-footer, .left-side-footer{
-    width: calc(100% / 3 );
+    max-width: calc(100% / 2 );
 }
 
 .right-side-footer{
@@ -207,4 +211,18 @@ ul{
     top: 20px;
     left: 0;
     text-align: left;
+}
+
+/* second image hover */
+
+.card-layout:hover img.second-img{
+    display: block;
+}
+
+.card-layout:hover img.first-img{
+    display: none;
+}
+
+.second-img{
+    display: none;
 }
