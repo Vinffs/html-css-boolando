@@ -12,21 +12,21 @@
     <!-- fixed header - fullscreen background-->
     <header>
         <!-- nav width 1200px -->
-        <nav class="debug flex nav-f-content">
+        <nav class="debug flex f-wrap nav-f-content">
             <!-- donna/uomo/bambini -->
-            <div>
-                <ul class="flex f-row debug">
-                    <li><a href="">Donna</a></li>
-                    <li><a href="">Uomo</a></li>
-                    <li><a href="">Bambini</a></li>
+            <div class="debug">
+                <ul class="flex f-row f-wrap debug text-setup">
+                    <li><a class="f-wrap" href="">Donna</a></li>
+                    <li><a class="f-wrap" href="">Uomo</a></li>
+                    <li><a class="f-wrap" href="">Bambini</a></li>
                 </ul>
             </div>
             <!-- logo -->
             <div class="debug flex j-center">
-                <img id="logo" src="img/boolean-logo.png" alt="boolean-logo">
+                <img id="logo" class="f-wrap" src="img/boolean-logo.png" alt="boolean-logo">
             </div>
             <!-- icons -->
-            <div class="debug flex">
+            <div class="debug flex f-wrap text-setup">
                 <i class="fa-regular fa-user fa-sm"></i>
                 <i class="fa-regular fa-heart fa-sm"></i>
                 <i class="fa-solid fa-bag-shopping fa-sm"></i>
@@ -35,32 +35,147 @@
     </header>
 
     <!-- main width 1200px-->
-    <main>
+    <main class="debug main-layout flex f-row f-wrap">
         <!-- div.card -->
-        <div>
+        <div class="debug card-layout">
             <!-- figure.card-img-->
-            <figure>
-                <img src="" alt="">
+            <figure class="p-relative">
+                <img class="img-setting" src="img/1.webp" alt="model-one">
                 <!-- span.heart -->
-                <span></span>
+                <span class="heart"><i class="fa-solid fa-heart fa-lg"></i></span>
                 <!-- div.discount-info -->
                 <div>
                     <!-- span.discount-percentage -->
-                    <span></span>
-                    <!-- span.product-type -->
-                    <span></span>
+                    <span class="discount-percentage">-50&percnt;</span>
+                    <!-- span.product-advantage -->
+                    <span class="product-advantage">Sostenibilit&aacute;</span>
                 </div>
             </figure>
             <!-- div.product-description -->
-            <div>
+            <div class="debug product-description">
                 <!-- h2.brand-name -->
-                <h2></h2>
+                <h2>Levi's</h2>
                 <!-- h3.product-name -->
-                <h3></h3>
+                <h3>RELAXED FIT TEE UNISEX</h3>
                 <!-- span.discounted-price-->
-                <span></span>
-                <!-- span.old-price-->
-                <span></span>
+                <span class="discounted-price">14,99 &euro;</span>
+                <!-- span.original-price-->
+                <span class="original-price">29,99 &euro;</span>
+            </div>
+        </div>
+        <div class="debug card-layout">
+            <!-- figure.card-img-->
+            <figure class="p-relative">
+                <img class="img-setting" src="img/2.webp" alt="model-two">
+                <!-- span.heart -->
+                <span class="heart"><i class="fa-solid fa-heart fa-lg"></i></span>
+                <!-- div.discount-info -->
+                <div>
+                    <!-- span.discount-percentage -->
+                    <span class="discount-percentage">-30&percnt;</span>
+
+                </div>
+            </figure>
+            <!-- div.product-description -->
+            <div class="debug product-description">
+                <!-- h2.brand-name -->
+                <h2>Guess</h2>
+                <!-- h3.product-name -->
+                <h3>ROSES TEE</h3>
+                <!-- span.discounted-price-->
+                <span class="discounted-price">20,99 &euro;</span>
+                <!-- span.original-price-->
+                <span class="original-price">29,99 &euro;</span>
+            </div>
+        </div>
+        <div class="debug card-layout">
+            <!-- figure.card-img-->
+            <figure class="p-relative">
+                <img class="img-setting" src="img/3.webp" alt="model-two">
+                <!-- span.heart -->
+                <span class="heart"><i class="fa-solid fa-heart fa-lg"></i></span>
+                <!-- div.discount-info -->
+                <div>
+                    <!-- span.discount-percentage -->
+                    <span class="discount-percentage">-30&percnt;</span>
+                </div>
+            </figure>
+            <!-- div.product-description -->
+            <div class="debug product-description">
+                <!-- h2.brand-name -->
+                <h2>Come Zucchero Filato</h2>
+                <!-- h3.product-name -->
+                <h3>VOGLIA DI COLORI PASTELLO</h3>
+                <!-- span.discounted-price-->
+                <span class="discounted-price">129,99 &euro;</span>
+                <!-- span.original-price-->
+                <span class="original-price">184,99 &euro;</span>
+            </div>
+        </div>
+        <div class="debug card-layout">
+            <!-- figure.card-img-->
+            <figure class="p-relative">
+                <img class="img-setting" src="img/4.webp" alt="model-one">
+                <!-- span.heart -->
+                <span class="heart"><i class="fa-solid fa-heart fa-lg"></i></span>
+                <!-- div.discount-info -->
+                <div>
+                    <!-- span.discount-percentage -->
+                    <span class="discount-percentage">-50&percnt;</span>
+                    <!-- span.product-advantage -->
+                    <span class="product-advantage">Sostenibilit&aacute;</span>
+                </div>
+            </figure>
+            <!-- div.product-description -->
+            <div class="debug product-description">
+                <!-- h2.brand-name -->
+                <h2>Levi's</h2>
+                <!-- h3.product-name -->
+                <h3>TEE UNISEX</h3>
+                <!-- span.discounted-price-->
+                <span class="discounted-price">14,99 &euro;</span>
+                <!-- span.original-price-->
+                <span class="original-price">29,99 &euro;</span>
+            </div>
+        </div>
+        <div class="debug card-layout">
+            <!-- figure.card-img-->
+            <figure class="p-relative">
+                <img class="img-setting" src="img/5.webp" alt="model-two">
+                <!-- span.heart -->
+                <span class="heart"><i class="fa-solid fa-heart fa-lg"></i></span>
+                <!-- div.discount-info -->
+            </figure>
+            <!-- div.product-description -->
+            <div class="debug product-description">
+                <!-- h2.brand-name -->
+                <h2>Maya Deluxe</h2>
+                <!-- h3.product-name -->
+                <h3>STRIPE BODICE</h3>
+                <!-- span.discounted-price-->
+                <span class="discounted-price">99,99 &euro;</span>
+            </div>
+        </div>
+        <div class="debug card-layout">
+            <!-- figure.card-img-->
+            <figure class="p-relative">
+                <img class="img-setting" src="img/6.webp" alt="model-two">
+                <!-- span.heart -->
+                <span class="heart"><i class="fa-solid fa-heart fa-lg"></i></span>
+                <!-- div.discount-info -->
+                <div>
+                    <!-- span.product-advantage -->
+                    <span class="product-advantage-only">Sostenibilit&aacute;</span>
+                </div>
+            </figure>
+            <!-- div.product-description -->
+            <div class="debug product-description">
+                <!-- h2.brand-name -->
+                <h2>Esprit</h2>
+                <!-- h3.product-name -->
+                <h3>MAGLIONE - BLACK</h3>
+                <!-- span.discounted-price-->
+                <span class="discounted-price">29,99 &euro;</span>
             </div>
         </div>
     </main>
