@@ -12,7 +12,7 @@
     <!-- fixed header - fullscreen background-->
     <header>
         <!-- nav width 1200px -->
-        <nav class="debug flex f-wrap nav-f-content">
+        <nav class="debug flex f-wrap f-content">
             <!-- donna/uomo/bambini -->
             <div class="debug">
                 <ul class="flex f-row f-wrap debug text-setup">
@@ -23,7 +23,7 @@
             </div>
             <!-- logo -->
             <div class="debug flex j-center">
-                <img id="logo" class="f-wrap" src="img/boolean-logo.png" alt="boolean-logo">
+                <img id="logo" src="img/boolean-logo.png" alt="boolean-logo">
             </div>
             <!-- icons -->
             <div class="debug flex f-wrap text-setup">
@@ -182,32 +182,29 @@
 
     <!-- footer - fullscreen background -->
     <footer>
-        <!-- div.right-side-footer -->
-        <div>
-            <!-- h1.website-name -->
-            <h1></h1>
-            <!-- div.(necessary for flex?) -->
-            <div>
-                <!-- ul.faq-pages -> w/ flex row -->
-                <ul>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
-                    <li><a href=""></a></li>
+        <div class="footer-width debug p-relative">
+            <!-- div.left-side-footer -->
+            <div class="debug left-side-footer">
+                <h1>Boolando s.r.l</h1>
+                <ul class="footer-text flex">
+                    <li><a href="">Informazioni legali</a></li>
+                    <li><a href="">Informativa sulla privacy</a></li>
+                    <li><a href="">Diritto di recesso</a></li>
                 </ul>
             </div>
-        </div>
-
-        <!-- left-side-footer -->
-        <div>
-            <!-- div.flex position -->
-            <div>
-                <!-- span.social -->
-                <span></span>
-                <!-- div.social-icons w/ flex space-between-->
-                <div></div>
+        
+            <!-- right-side-footer -->
+            <div class="debug right-side-footer">
+                <span class="social-links">Trovaci anche su</span>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-square-x-twitter fa-sm"></i></a>
+                    <a href=""><i class="fa-brands fa-square-facebook fa-sm"></i></a>
+                    <a href=""><i class="fa-brands fa-instagram fa-sm"></i></a>
+                    <a href=""><i class="fa-brands fa-square-pinterest fa-sm"></i></a>
+                    <a href=""><i class="fa-brands fa-square-youtube fa-sm"></i></a>
+                </div>
             </div>
         </div>
-
     </footer>
     
 </body>
